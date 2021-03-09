@@ -1,6 +1,7 @@
 
 
-function hello(name){ 
+function hello(name){
+name= name || 'world'; 
 console.log('Hello, ' + name + '!');
 }
 
